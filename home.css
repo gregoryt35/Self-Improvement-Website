@@ -13,6 +13,7 @@ body {
     border: 5px solid black;
     border-radius: 25px;
     grid-column: span 4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     align-items: center;
     color: #1A1A1D;
@@ -26,6 +27,7 @@ body {
     grid-row: span 3;
     display: flex;
     flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: #C3073F;
 }
@@ -36,6 +38,7 @@ body {
     border: 5px solid black;
     grid-column: span 3;
     grid-row: span 3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: #0D1B2A;
 }
