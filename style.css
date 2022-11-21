@@ -1,40 +1,45 @@
+/*
+    This is the CSS file that creates the format of the page.
+    All pages follow this format, each HTML file refrences this file.
+*/
+
 body {
-    background-color: #1A1A1D;
+    background-color: #0C2D48;
     font-size: 25px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
 }
 
 #heading {
-    background-color: #4E4E50;
+    background-color: #BFD7ED;
     border: 5px solid black;
     border-radius: 25px;
     grid-column: span 4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     align-items: center;
-    color: #1A1A1D;
+    color: black;
 }
 
 #menu {
-    background-color: #6F2232;
+    background-color: #60A3D9;
     border: 5px solid black;
     border-radius: 25px;
     grid-column: span 1;
-    grid-row: span 3;
+    grid-row: span 1;
     display: flex;
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    color: #C3073F;
+    color: #0C2D48;
 }
 
 #content {
-    background-color: #C3073F;
+    background-color: #B1D4E0;
     border-radius: 25px;
     border: 5px solid black;
     grid-column: span 3;

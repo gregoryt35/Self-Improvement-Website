@@ -1,10 +1,24 @@
-.gallery {
-    display: flex;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 250px 250px 250px;
-    grid-template-rows: 250px 250px;
+@media screen and (max-width : 480px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
 }
-.item {
-    border-radius: 25px;
+
+@media screen and (min-width : 480px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
+
+.item img {
+    height: 250px;
+    width: 90%;
+    border: 5px solid black;
+    border-radius: 20px;
 }
